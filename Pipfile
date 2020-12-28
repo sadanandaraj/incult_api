@@ -5,8 +5,17 @@ name = "pypi"
 
 [packages]
 django = "==2.2.5"
+pillow = "*"
+django-seed = "*"
+djangorestframework = "*"
+pyjwt = "*"
+drf-extra-fields = "*"
+django-cors-headers = "*"
+django-imagekit = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
+flake8 = "*"
 
 [requires]
 python_version = "3.6"
